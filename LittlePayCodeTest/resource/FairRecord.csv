@@ -1,0 +1,4 @@
+HeaderTapOnStopID,S1Rate,S2Rate,S3Rate
+S1,0,3.25,7.30
+S2,3.25,0,5.50
+S3,7.30,5.50,0
