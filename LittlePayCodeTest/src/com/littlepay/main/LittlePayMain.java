@@ -42,14 +42,14 @@ public class LittlePayMain {
 		System.out.println("Completed Trips:");
 		for (Trip objTrip : completedTripList) {
 			System.out.println("TRIP ID: " + objTrip.getTripID() + "  -TravelCard: " + objTrip.getTravelCardID()
-					+ "  - TanOn:" + objTrip.getTapOnStop() + "  - TapOff:" + objTrip.getTapOffStop());
+					+ "  - TapOn:" + objTrip.getTapOnStop() + "  - TapOff:" + objTrip.getTapOffStop());
 		}
 		System.out.print( "\n\n" );
 		ArrayList<Trip> cancelledTripList = TripDetails.getCancelledTrips();
 		System.out.println("Cancelled Trips:");
 		for (Trip objTrip : cancelledTripList) {
 			System.out.println("TRIP ID: " + objTrip.getTripID() + "  -TravelCard: " + objTrip.getTravelCardID()
-					+ "  - TanOn:" + objTrip.getTapOnStop() + "  - TapOff:" + objTrip.getTapOffStop());
+					+ "  - TapOn:" + objTrip.getTapOnStop() + "  - TapOff:" + objTrip.getTapOffStop());
 		}
 		System.out.print( "\n\n" );
 		ArrayList<Trip> incompleteTripList = TripDetails.getIncompleteTrips();
